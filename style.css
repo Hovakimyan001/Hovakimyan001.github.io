@@ -291,6 +291,9 @@ box-shadow: 2px 5px 10px rgb(0 0 0 / 3%) inset, -3px -8px 10px rgb(0 0 0 / 7%) i
     .board-board {
         width: 100%
     }
+    #checkContainer {
+        grid-template-columns: repeat(6, 1fr);
+    }
     
 }
 
